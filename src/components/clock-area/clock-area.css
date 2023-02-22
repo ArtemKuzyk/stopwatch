@@ -1,0 +1,47 @@
+.clock-area {
+  background: conic-gradient(black 0deg, black 1deg, white 2deg);
+  border: 50px solid indianred;
+  border-radius: 50%;
+  box-shadow: 0 0 5px black;
+  height: 500px;
+  margin: auto;
+  transition: background 1s linear;
+  width: 600px;
+}
+
+.colck-number-area {
+  align-items: center;
+  background-color: beige;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  margin: 50px auto;
+  width: 300px;
+}
+.colck-number-area div {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width: 45%;
+}
+.colck-number-area > div > div {
+  display: flex;
+  flex-direction: column;
+}
+.colck-number-area > div > div div {
+  width: 100%;
+  font-size: 120px;
+  overflow: hidden;
+}
+.colck-number-area > div > div div:nth-child(even) {
+  border-radius: 0 0 15px 15px;
+  padding-bottom: 60px;
+}
+.colck-number-area > div > div div:nth-child(odd) {
+  border-radius: 15px 15px 0 0;
+  padding-top: 60px;
+}/*# sourceMappingURL=clock-area.css.map */

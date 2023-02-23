@@ -5,7 +5,7 @@
   box-shadow: 0 0 5px black;
   height: 500px;
   margin: auto;
-  transition: background 1s linear;
+  transition: all 1s linear;
   width: 600px;
 }
 
